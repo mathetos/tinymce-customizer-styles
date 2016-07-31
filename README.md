@@ -7,7 +7,7 @@ This file automatically generates inline styles into your TinyMCE Editor in Word
 
 This is a useful function for Theme author who wish to have their Post/Page editor more closely reflect the look and feel that your Theme creates with its Customizer setings.
  
- ## How to Use it
+ ##How to Use it
  
  **STEP 1** 
  
@@ -83,7 +83,7 @@ This is a useful function for Theme author who wish to have their Post/Page edit
  
  There is no step three, you're done! Unless you'd like to further customize your theme_mods, go at it, have fun.
 
-## About This Project
+##About This Project
 
 This started as an idea that Matt Cromwell (@mathetos) put forward. He believed something like this was possible but didn't know exactly where to hook into TinyMCE.
 
