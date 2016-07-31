@@ -8,6 +8,7 @@ This file automatically generates inline styles into your TinyMCE Editor in Word
 This is a useful function for Theme author who wish to have their Post/Page editor more closely reflect the look and feel that your Theme creates with its Customizer setings.
  
  ## How to Use it
+ 
  **STEP 1** 
  
  Drop this file into your theme and include it like so:
