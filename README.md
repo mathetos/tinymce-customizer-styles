@@ -6,25 +6,25 @@ This is a "drop-in" file for WordPress themes to have their Customizer colors dy
 This file automatically generates inline styles into your TinyMCE Editor in WordPress generated from the colors in your Customizer.
 
 This is a useful function for Theme author who wish to have their Post/Page editor more closely reflect the look and feel that your Theme creates with its Customizer setings.
+
+## How to Use
  
- ##How to Use it
+It's just a matter of dropping in the file, and filtering the main array.
  
- **STEP 1** 
+**STEP 1** 
  
- Drop this file into your theme and include it like so:
- `include(get_stylesheet_directory_uri() . 'tinymce-customizer-styles.php');`
+Drop this file into your theme and include it like so: `include(get_stylesheet_directory_uri() . 'tinymce-customizer-styles.php');`
  
- Of course you might want to put it in a sub-folder, but that's up to you.
+Of course you might want to put it in a sub-folder, but that's up to you.
  
- **STEP 2**
+**STEP 2**
  
- Customize the inline styles according to your theme_mods by filtering the action with your own function. 
+Customize the inline styles according to your theme_mods by filtering the action with your own function. 
  
- This example is for Twenty Sixteen:
+This example is for Twenty Sixteen:
  
- ```
- 
- function kwh_define_theme_mods( $theme_mods ) {
+```
+function kwh_define_theme_mods( $theme_mods ) {
  	$theme_mods = array(
  		'page_background_color' => array(
  			array(
@@ -79,9 +79,9 @@ This is a useful function for Theme author who wish to have their Post/Page edit
  add_filter( 'kwh_theme_mods', 'kwh_define_theme_mods' );
  
  ```
- **STEP 3**
+**STEP 3**
  
- There is no step three, you're done! Unless you'd like to further customize your theme_mods, go at it, have fun.
+There is no step three, you're done! Unless you'd like to further customize your theme_mods, go at it, have fun.
 
 ##About This Project
 
