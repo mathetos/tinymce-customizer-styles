@@ -85,9 +85,9 @@ There is no step three, you're done! Unless you'd like to further customize your
 
 ##About This Project
 
-This started as an idea that Matt Cromwell (@mathetos) put forward. He believed something like this was possible but didn't know exactly where to hook into TinyMCE.
+This started as an idea that Matt Cromwell ([@mathetos](https://github.com/mathetos)) put forward. He believed something like this was possible but didn't know exactly where to hook into TinyMCE.
 
-Through the Advanced WordPress Facebook Group both Kevin Hoffman (@kevinwhoffman) and Samuel Wood (@Otto42) chimed in. Otto provided the exact hook and method for making this happen.
+Through the Advanced WordPress Facebook Group both Kevin Hoffman ([@kevinwhoffman](https://github.com/kevinwhoffman)) and Samuel Wood ([@Otto42](https://github.com/Otto42)) chimed in. Otto provided the exact hook and method for making this happen.
 
 Kevin then took the basic concept and then created the main helper function which cycles through all your theme_mods to generate the inline CSS on the fly.
 
